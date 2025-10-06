@@ -34,6 +34,7 @@ These results indicate that the model generalizes well on unseen handwritten dig
 
 ## Demo
 Try the app here: [Streamlit App](https://mnist-digit-classifier-6njut6f3ndrmpz2okrigsd.streamlit.app/)
+**Note:** The app is optimized for desktops and laptops. Mobile devices may not display it correctly.
 
 ## Installation (Run Locally)
 1. Clone the repository
@@ -86,3 +87,4 @@ mnist_model/
 - Occasionally, the app may show an error message during use.  
   Refreshing the page usually resolves it.  
   This does not affect predictions or overall functionality.
+- The app is optimized for desktops and laptops. Mobile devices may not display it correctly.
