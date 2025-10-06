@@ -123,7 +123,7 @@ if canvas.image_data is not None:
                 st.warning("Unexpected model output. Please try again.")
             else:
                 p = probs[0]
-                st.write(f"Prediction: {int(np.argmax(p))}")
+                st.subheader(f"Prediction: {int(np.argmax(p))}")
                 st.bar_chart(p)
 
 # Uploader
@@ -150,5 +150,5 @@ if uploaded is not None:
                 st.warning("Unexpected model output. Please try again.")
             else:
                 p = probs[0]
-                st.write(f"Prediction: {int(np.argmax(p))}")
+                st.subheader(f"Prediction: {int(np.argmax(p))}")
                 st.bar_chart(p)

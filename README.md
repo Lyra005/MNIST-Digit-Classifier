@@ -24,14 +24,22 @@ This project uses a Convolutional Neural Network (CNN) for handwritten digit rec
 **Loss function:** Sparse Categorical Crossentropy  
 **Optimizer:** Adam  
 
+## Model Performance
+
+The CNN model was trained on the MNIST dataset and achieved the following results:
+
+- **Test  accuracy:** 98.9%
+
+These results indicate that the model generalizes well on unseen handwritten digit images.
+
 ## Demo
 Try the app here: [Streamlit App](https://your-app-name.streamlit.app)
 
 ## Installation (Run Locally)
 1. Clone the repository
    ```
-   git clone https://github.com/username/project-name.git
-   cd project-name
+   git clone https://github.com/Lyra005/MNIST-Digit-Classifier.git
+   cd MNIST-Digit-Classifier
    ```
 2. Install dependencies
     ```
@@ -46,7 +54,18 @@ Streamlit will open a local URL (e.g., `http://localhost:8501`).
 
 ## How to use
 - Draw mode: Use the canvas to draw a single digit (0–9). The app processes and predicts the digit, and you can optionally show the processed 28×28 image.
-- Upload mode: Upload a PNG/JPG/JPEG of a single digit. If the colors are inverted (dark background, light digit), toggle the “Invert uploaded image colors” option for better results.
+- Upload mode: Upload a PNG/JPG/JPEG of a single digit. If the colors are inverted (light background, dark digit), toggle the “Invert uploaded image colors” option for better results.
+
+## Screenshots
+
+**Draw Mode**
+![Draw Mode](images/canvas_view.png)
+
+**Upload Mode**
+![Upload Mode](images/upload_view.png)
+
+**Prediction probabilities**
+![Prediction probabilities](images/probabilities_chart.png)
 
 ## Project structure
 ```
@@ -55,6 +74,10 @@ mnist_model/
 ├─ model.keras
 ├─ train_model.ipynb 
 ├─ requirements.txt
-└─ README.md
+├─ README.md
+└─ images/
+├─ canvas_view.png
+├─ upload_view.png
+└─ probabilities_chart.png
 ```
 
