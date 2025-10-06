@@ -33,7 +33,7 @@ The CNN model was trained on the MNIST dataset and achieved the following result
 These results indicate that the model generalizes well on unseen handwritten digit images.
 
 ## Demo
-Try the app here: [Streamlit App](https://your-app-name.streamlit.app)
+Try the app here: [Streamlit App](https://mnist-digit-classifier-6njut6f3ndrmpz2okrigsd.streamlit.app/)
 
 ## Installation (Run Locally)
 1. Clone the repository
@@ -81,3 +81,8 @@ mnist_model/
 └─ probabilities_chart.png
 ```
 
+## Known Issues
+
+- Occasionally, the app may show an error message during use.  
+  Refreshing the page usually resolves it.  
+  This does not affect predictions or overall functionality.
